@@ -1,0 +1,48 @@
+#contenedorSpinner{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+#contenedorBarraBusqueda{
+    display: flex;
+    justify-content: left;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+#cajaBusqueda{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
+#contenedorPaginas{
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #7c20f4;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+    #contenedorTabla{
+        padding: 20px;
+    }
